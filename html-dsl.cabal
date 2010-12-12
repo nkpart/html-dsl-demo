@@ -1,0 +1,20 @@
+Name:                html-dsl
+Version:             0.1
+License:             BSD3
+License-file:        LICENSE
+Author:              Nick Partridge
+Maintainer:          nkpart@gmail.com
+Stability:           Experimental
+Category:            Text
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+Library
+  Exposed-modules:   Text.Html.DSL
+  
+  -- Packages needed in order to build this package.
+  Build-depends:     base >= 4 && < 5, mtl -any        
+  
+  -- Modules not exported by this package.
+  -- Other-modules:       
+  
